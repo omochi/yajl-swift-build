@@ -1,7 +1,7 @@
 import XCTest
 import yajl
 
-final class yajl_swiftTests: XCTestCase {
+final class yajlTests: XCTestCase {
     func test1() {
         class Context {
             var events: [String] = []
