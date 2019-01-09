@@ -144,7 +144,7 @@
 				D6A4BAE421E619FB006C076C /* yajl.c */,
 			);
 			name = src;
-			path = Sources/Cyajl;
+			path = ../Sources/Cyajl;
 			sourceTree = "<group>";
 		};
 		D6A4BB0121E61A36006C076C /* include */ = {
@@ -154,7 +154,7 @@
 				D6A4BB0321E61A36006C076C /* yajl */,
 			);
 			name = include;
-			path = Sources/Cyajl/include;
+			path = ../Sources/Cyajl/include;
 			sourceTree = "<group>";
 		};
 		D6A4BB0321E61A36006C076C /* yajl */ = {
@@ -175,7 +175,7 @@
 				D6A4BB1021E61C75006C076C /* yajl.swift */,
 			);
 			name = src;
-			path = Sources/yajl;
+			path = ../Sources/yajl;
 			sourceTree = "<group>";
 		};
 		D6A4BB1221E61CE1006C076C /* Frameworks */ = {
@@ -250,7 +250,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D6A4BAA421E6188D006C076C /* Build configuration list for PBXProject "yajl-carthage" */;
+			buildConfigurationList = D6A4BAA421E6188D006C076C /* Build configuration list for PBXProject "yajl" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -438,7 +438,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = xcode/yajl/Info.plist;
+				INFOPLIST_FILE = yajl/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,7 +448,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.omochimetaru.yajl;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Sources/Cyajl/include";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/../Sources/Cyajl/include";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,7 +464,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = xcode/yajl/Info.plist;
+				INFOPLIST_FILE = yajl/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,7 +474,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.omochimetaru.yajl;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Sources/Cyajl/include";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/../Sources/Cyajl/include";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -492,8 +492,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Sources/Cyajl/include";
-				INFOPLIST_FILE = xcode/Cyajl/Info.plist;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../Sources/Cyajl/include";
+				INFOPLIST_FILE = Cyajl/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -519,8 +519,8 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Sources/Cyajl/include";
-				INFOPLIST_FILE = xcode/Cyajl/Info.plist;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../Sources/Cyajl/include";
+				INFOPLIST_FILE = Cyajl/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -537,7 +537,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D6A4BAA421E6188D006C076C /* Build configuration list for PBXProject "yajl-carthage" */ = {
+		D6A4BAA421E6188D006C076C /* Build configuration list for PBXProject "yajl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D6A4BAB021E6188D006C076C /* Debug */,
