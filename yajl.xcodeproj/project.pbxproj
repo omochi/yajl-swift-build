@@ -126,7 +126,7 @@
       "OBJ_25" = {
          isa = "PBXFileReference";
          name = "module.modulemap";
-         path = "/Users/omochi/github/omochi/yajl-swift/yajl.xcodeproj/GeneratedModuleMap/Cyajl/module.modulemap";
+         path = "/Users/omochi/github/omochi/yajl-swift-build/Sources/Cyajl/include/module.modulemap";
          sourceTree = "<group>";
       };
       "OBJ_26" = {
@@ -424,8 +424,7 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/Sources/Cyajl/include",
-               "$(SRCROOT)/yajl.xcodeproj/GeneratedModuleMap/Cyajl"
+               "$(SRCROOT)/Sources/Cyajl/include"
             );
             INFOPLIST_FILE = "yajl.xcodeproj/yajl_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -441,7 +440,7 @@
             OTHER_SWIFT_FLAGS = (
                "$(inherited)",
                "-Xcc",
-               "-fmodule-map-file=$(SRCROOT)/yajl.xcodeproj/GeneratedModuleMap/Cyajl/module.modulemap"
+               "-fmodule-map-file=$(SRCROOT)/Sources/Cyajl/include/module.modulemap"
             );
             PRODUCT_BUNDLE_IDENTIFIER = "yajl";
             PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -465,8 +464,7 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/Sources/Cyajl/include",
-               "$(SRCROOT)/yajl.xcodeproj/GeneratedModuleMap/Cyajl"
+               "$(SRCROOT)/Sources/Cyajl/include"
             );
             INFOPLIST_FILE = "yajl.xcodeproj/yajl_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -482,7 +480,7 @@
             OTHER_SWIFT_FLAGS = (
                "$(inherited)",
                "-Xcc",
-               "-fmodule-map-file=$(SRCROOT)/yajl.xcodeproj/GeneratedModuleMap/Cyajl/module.modulemap"
+               "-fmodule-map-file=$(SRCROOT)/Sources/Cyajl/include/module.modulemap"
             );
             PRODUCT_BUNDLE_IDENTIFIER = "yajl";
             PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -636,8 +634,7 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/Sources/Cyajl/include",
-               "$(SRCROOT)/yajl.xcodeproj/GeneratedModuleMap/Cyajl"
+               "$(SRCROOT)/Sources/Cyajl/include"
             );
             INFOPLIST_FILE = "yajl.xcodeproj/yajlTests_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -654,7 +651,7 @@
             OTHER_SWIFT_FLAGS = (
                "$(inherited)",
                "-Xcc",
-               "-fmodule-map-file=$(SRCROOT)/yajl.xcodeproj/GeneratedModuleMap/Cyajl/module.modulemap"
+               "-fmodule-map-file=$(SRCROOT)/Sources/Cyajl/include/module.modulemap"
             );
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
@@ -675,8 +672,7 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/Sources/Cyajl/include",
-               "$(SRCROOT)/yajl.xcodeproj/GeneratedModuleMap/Cyajl"
+               "$(SRCROOT)/Sources/Cyajl/include"
             );
             INFOPLIST_FILE = "yajl.xcodeproj/yajlTests_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -693,7 +689,7 @@
             OTHER_SWIFT_FLAGS = (
                "$(inherited)",
                "-Xcc",
-               "-fmodule-map-file=$(SRCROOT)/yajl.xcodeproj/GeneratedModuleMap/Cyajl/module.modulemap"
+               "-fmodule-map-file=$(SRCROOT)/Sources/Cyajl/include/module.modulemap"
             );
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
