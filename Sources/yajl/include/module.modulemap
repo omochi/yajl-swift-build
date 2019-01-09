@@ -1,4 +1,4 @@
-module Cyajl {
+module yajl {
     umbrella "yajl"
     export *
 }

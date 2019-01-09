@@ -6,14 +6,12 @@ import PackageDescription
 let package = Package(
     name: "yajl",
     products: [
-        .library(name: "Cyajl", targets: ["Cyajl"]),
         .library(name: "yajl", targets: ["yajl"]),
     ],
     dependencies: [
     ],
     targets: [
-        .target(name: "Cyajl", dependencies: []),
-        .target(name: "yajl", dependencies: ["Cyajl"]),
+        .target(name: "yajl", dependencies: []),
         .testTarget(name: "yajlTests", dependencies: ["yajl"]),
     ]
 )
