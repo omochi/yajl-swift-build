@@ -1,8 +1,4 @@
-framework module yajl {
-    header "yajl_common.h"
-    header "yajl_gen.h"
-    header "yajl_parse.h"
-    header "yajl_tree.h"
-    header "yajl_version.h"
+module yajl {
+    umbrella "yajl"
     export *
 }

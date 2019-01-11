@@ -82,7 +82,8 @@
 		D6A4BB9D21E63832006C076C /* yajlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yajlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A4BBA921E6385D006C076C /* XCTestManifests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		D6A4BBAA21E6385E006C076C /* yajlTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yajlTests.swift; sourceTree = "<group>"; };
-		D6A4BBB821E638B5006C076C /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		D6F9AC2421E85F2900AB5C0A /* framework.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = framework.modulemap; path = yajl/framework.modulemap; sourceTree = "<group>"; };
+		D6F9AC2521E85F3300AB5C0A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = yajl/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +120,8 @@
 		D6A4BAAC21E6188D006C076C /* yajl */ = {
 			isa = PBXGroup;
 			children = (
+				D6F9AC2521E85F3300AB5C0A /* Info.plist */,
+				D6F9AC2421E85F2900AB5C0A /* framework.modulemap */,
 				D6A4BB5921E6367F006C076C /* include */,
 				D6A4BB0F21E61C75006C076C /* src */,
 			);
@@ -158,7 +161,6 @@
 		D6A4BB5921E6367F006C076C /* include */ = {
 			isa = PBXGroup;
 			children = (
-				D6A4BBB821E638B5006C076C /* module.modulemap */,
 				D6A4BBAD21E6389D006C076C /* yajl */,
 			);
 			name = include;
@@ -477,7 +479,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "$(PROJECT_DIR)/../Sources/yajl/include/module.modulemap";
+				MODULEMAP_FILE = "$(PROJECT_DIR)/../xcode/yajl/framework.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.omochimetaru.yajl;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -504,7 +506,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "$(PROJECT_DIR)/../Sources/yajl/include/module.modulemap";
+				MODULEMAP_FILE = "$(PROJECT_DIR)/../xcode/yajl/framework.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.omochimetaru.yajl;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
